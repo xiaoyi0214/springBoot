@@ -1,0 +1,23 @@
+#yml 语法
+# k:(空格)v  表示一对键值对，空格必须
+# 以空格缩进来控制层级关系，大小写敏感
+
+# 值的写法
+#   字面量：
+#      k: v 字面量直接写
+#           字符串默认不需要件引号
+#        引号：  "" 不会转义字符串里面的特殊字符   '' 会转义特殊字符，最终只是字符串输出
+
+
+#   对象，map
+#      k: v
+
+#      friends:
+#         lastName: zhangsan
+#     行内写法： friends： {lastname: zhangsan,age: 18}
+
+#   数组（list，set）
+#     list：
+#       - item1
+#       - item2
+

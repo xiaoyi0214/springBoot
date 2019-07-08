@@ -4,9 +4,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by 小逸 on 2019/6/28.
- *
- * @author 小逸
+ * @ConfigurationProperties     ：告诉springBoot将本类中所有属性与配置文件中的配置进行绑定(只有该类是容器中的组件---Component方能使用)
+ *      （prefix = "my1"）        :指定配置项
  */
 @Component
 @ConfigurationProperties(prefix = "my1")
