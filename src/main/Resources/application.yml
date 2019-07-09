@@ -21,3 +21,22 @@
 #       - item1
 #       - item2
 
+---
+
+#server:
+#  port: 8081
+#spring:
+#  profiles: dev
+
+#spring:
+#  profiles:
+#    active: dev
+---
+
+#server:
+#  port: 8082
+#
+#spring:
+#  profiles: test
+
+---

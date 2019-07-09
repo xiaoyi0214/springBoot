@@ -1,5 +1,6 @@
 package boot.demo.properties;
 
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by 小逸 on 2019/6/28.
  * @author 小逸
  *
- *  加载配置属性方式一
  */
 @RequestMapping("/properties")
 @RestController
